@@ -2,27 +2,24 @@
   <modelVersion>4.0.0</modelVersion>
 
 
-  <groupId>com.infoboro.test</groupId>
-  <artifactId>testGit</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
-  <build>
-    <plugins>
-      <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
-        <configuration>
-          <source>1.8</source>
-          <target>1.8</target>
-        </configuration>
-      </plugin>
-
-    </plugins>
-  </build>
+  	<groupId>com.infoboro.test</groupId>
+  	<artifactId>testGit</artifactId>
+  	<version>0.0.1-SNAPSHOT</version>
+  	<packaging>jar</packaging>
+  	<build>
+	    <plugins>
+    	  	<plugin>
+        		<artifactId>maven-compiler-plugin</artifactId>
+        		<version>3.8.1</version>
+	        	<configuration>
+    	      		<source>1.8</source>
+        	  		<target>1.8</target>
+	        	</configuration>
+    	  	</plugin>
+		</plugins>
+	</build>
   
-  
-  
-  
+  <!-- 
 	<dependencies>
   		<dependency>
     		<groupId>org.apache.logging.log4j</groupId>
@@ -36,5 +33,7 @@
   		</dependency>
 	</dependencies>
   
+  -->
   
+    
 </project>

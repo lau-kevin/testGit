@@ -23,6 +23,12 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+        
+        stage('MyTest') {
+        	steps {
+        		echo 'My Testing ...'
+        	}
+        }	
     }
 }
 
